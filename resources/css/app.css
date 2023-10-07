@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search {
+}
+
+.search__header {
+    --el-header-height: auto;
+    --el-header-padding: 20px;
+    background-color: var(--el-color-primary-dark-2);
+}
+
+.el-row {
+    margin-bottom: 20px;
+}
+.el-row:last-child {
+    margin-bottom: 0;
+}
